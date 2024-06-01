@@ -18,7 +18,7 @@ extension User {
 
     @NSManaged public var id: UUID?
     @NSManaged public var name: String?
-    @NSManaged public var username: UUID?
+    @NSManaged public var username: String?
     @NSManaged public var password: String?
 
 }

@@ -15,8 +15,21 @@ class LoginViewController: UIViewController {
     }
     
     
+    @IBOutlet weak var usernameTF: UITextField!
+    @IBOutlet weak var passwordTF: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .orange
+    }
+    
+    
+    @IBAction func loginTapped() {
+        
+        NotificationCenter.default.post(name: NSNotification.Name.loggedInUserChanged, object: usernameTF.text)
+    }
+    
+    @IBAction func signupTapped() {
+        
     }
 }

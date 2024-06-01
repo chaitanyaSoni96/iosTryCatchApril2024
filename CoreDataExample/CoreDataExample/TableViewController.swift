@@ -15,17 +15,22 @@ class TableViewController: UITableViewController {
         }
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        refreshFromDatabase()
+    }
+    
+    @IBAction func logoutTapped(_ sender: Any) {
+        NotificationCenter.default.post(name: NSNotification.Name.loggedInUserChanged, object: nil)
+    }
+    
     @IBAction func addButtonTapped(_ sender: UIBarButtonItem) {
         let vc = ViewController.instantiate()
         vc.listRefreshTrigger = { [weak self] in
             self?.refreshFromDatabase()
         }
         self.present(vc, animated: true)
-    }
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        refreshFromDatabase()
     }
     
     func refreshFromDatabase() {
