@@ -20,8 +20,15 @@
 		283FF0182BF9EBFE00E43E51 /* ToDo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283FF0162BF9EBFD00E43E51 /* ToDo+CoreDataClass.swift */; };
 		283FF0192BF9EBFE00E43E51 /* ToDo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283FF0172BF9EBFD00E43E51 /* ToDo+CoreDataProperties.swift */; };
 		283FF01B2BF9EEEA00E43E51 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283FF01A2BF9EEEA00E43E51 /* TableViewController.swift */; };
-		283FF01E2BF9F44200E43E51 /* Some+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283FF01C2BF9F44200E43E51 /* Some+CoreDataClass.swift */; };
-		283FF01F2BF9F44200E43E51 /* Some+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283FF01D2BF9F44200E43E51 /* Some+CoreDataProperties.swift */; };
+		287EC4B72C0ADD8400C489C9 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287EC4B62C0ADD8400C489C9 /* LoginStoryboard.storyboard */; };
+		287EC4B92C0ADE6F00C489C9 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287EC4B82C0ADE6F00C489C9 /* SignupViewController.swift */; };
+		287EC4BB2C0ADE8A00C489C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287EC4BA2C0ADE8A00C489C9 /* LoginViewController.swift */; };
+		287EC4BD2C0ADEA600C489C9 /* AuthNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287EC4BC2C0ADEA600C489C9 /* AuthNavigationController.swift */; };
+		287EC4C82C0ADFE200C489C9 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287EC4C62C0ADFE200C489C9 /* User+CoreDataClass.swift */; };
+		287EC4C92C0ADFE200C489C9 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287EC4C72C0ADFE200C489C9 /* User+CoreDataProperties.swift */; };
+		287EC4CC2C0AE02D00C489C9 /* SignedInUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287EC4CA2C0AE02D00C489C9 /* SignedInUser+CoreDataClass.swift */; };
+		287EC4CD2C0AE02D00C489C9 /* SignedInUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287EC4CB2C0AE02D00C489C9 /* SignedInUser+CoreDataProperties.swift */; };
+		287EC4CF2C0AE06C00C489C9 /* AppFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287EC4CE2C0AE06C00C489C9 /* AppFlow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +66,15 @@
 		283FF0162BF9EBFD00E43E51 /* ToDo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDo+CoreDataClass.swift"; sourceTree = "<group>"; };
 		283FF0172BF9EBFD00E43E51 /* ToDo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDo+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		283FF01A2BF9EEEA00E43E51 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		283FF01C2BF9F44200E43E51 /* Some+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Some+CoreDataClass.swift"; sourceTree = "<group>"; };
-		283FF01D2BF9F44200E43E51 /* Some+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Some+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		287EC4B62C0ADD8400C489C9 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		287EC4B82C0ADE6F00C489C9 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		287EC4BA2C0ADE8A00C489C9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		287EC4BC2C0ADEA600C489C9 /* AuthNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthNavigationController.swift; sourceTree = "<group>"; };
+		287EC4C62C0ADFE200C489C9 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		287EC4C72C0ADFE200C489C9 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		287EC4CA2C0AE02D00C489C9 /* SignedInUser+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignedInUser+CoreDataClass.swift"; sourceTree = "<group>"; };
+		287EC4CB2C0AE02D00C489C9 /* SignedInUser+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignedInUser+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		287EC4CE2C0AE06C00C489C9 /* AppFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +105,10 @@
 		283FEFD72BF9E97E00E43E51 = {
 			isa = PBXGroup;
 			children = (
-				283FF01C2BF9F44200E43E51 /* Some+CoreDataClass.swift */,
-				283FF01D2BF9F44200E43E51 /* Some+CoreDataProperties.swift */,
+				287EC4CA2C0AE02D00C489C9 /* SignedInUser+CoreDataClass.swift */,
+				287EC4CB2C0AE02D00C489C9 /* SignedInUser+CoreDataProperties.swift */,
+				287EC4C62C0ADFE200C489C9 /* User+CoreDataClass.swift */,
+				287EC4C72C0ADFE200C489C9 /* User+CoreDataProperties.swift */,
 				283FF0162BF9EBFD00E43E51 /* ToDo+CoreDataClass.swift */,
 				283FF0172BF9EBFD00E43E51 /* ToDo+CoreDataProperties.swift */,
 				283FEFE22BF9E97E00E43E51 /* CoreDataExample */,
@@ -120,10 +136,15 @@
 				283FEFE72BF9E97E00E43E51 /* ViewController.swift */,
 				283FF01A2BF9EEEA00E43E51 /* TableViewController.swift */,
 				283FEFE92BF9E97E00E43E51 /* Main.storyboard */,
+				287EC4B62C0ADD8400C489C9 /* LoginStoryboard.storyboard */,
+				287EC4BC2C0ADEA600C489C9 /* AuthNavigationController.swift */,
+				287EC4B82C0ADE6F00C489C9 /* SignupViewController.swift */,
+				287EC4BA2C0ADE8A00C489C9 /* LoginViewController.swift */,
 				283FEFEF2BF9E97F00E43E51 /* Assets.xcassets */,
 				283FEFF12BF9E97F00E43E51 /* LaunchScreen.storyboard */,
 				283FEFF42BF9E97F00E43E51 /* Info.plist */,
 				283FEFEC2BF9E97E00E43E51 /* CoreDataExample.xcdatamodeld */,
+				287EC4CE2C0AE06C00C489C9 /* AppFlow.swift */,
 			);
 			path = CoreDataExample;
 			sourceTree = "<group>";
@@ -252,6 +273,7 @@
 				283FEFF32BF9E97F00E43E51 /* LaunchScreen.storyboard in Resources */,
 				283FEFF02BF9E97F00E43E51 /* Assets.xcassets in Resources */,
 				283FEFEB2BF9E97E00E43E51 /* Main.storyboard in Resources */,
+				287EC4B72C0ADD8400C489C9 /* LoginStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,14 +298,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				287EC4BB2C0ADE8A00C489C9 /* LoginViewController.swift in Sources */,
 				283FEFE82BF9E97E00E43E51 /* ViewController.swift in Sources */,
+				287EC4C92C0ADFE200C489C9 /* User+CoreDataProperties.swift in Sources */,
 				283FF01B2BF9EEEA00E43E51 /* TableViewController.swift in Sources */,
+				287EC4B92C0ADE6F00C489C9 /* SignupViewController.swift in Sources */,
 				283FEFE42BF9E97E00E43E51 /* AppDelegate.swift in Sources */,
-				283FF01E2BF9F44200E43E51 /* Some+CoreDataClass.swift in Sources */,
 				283FEFE62BF9E97E00E43E51 /* SceneDelegate.swift in Sources */,
 				283FF0192BF9EBFE00E43E51 /* ToDo+CoreDataProperties.swift in Sources */,
-				283FF01F2BF9F44200E43E51 /* Some+CoreDataProperties.swift in Sources */,
+				287EC4BD2C0ADEA600C489C9 /* AuthNavigationController.swift in Sources */,
+				287EC4CD2C0AE02D00C489C9 /* SignedInUser+CoreDataProperties.swift in Sources */,
+				287EC4C82C0ADFE200C489C9 /* User+CoreDataClass.swift in Sources */,
 				283FF0182BF9EBFE00E43E51 /* ToDo+CoreDataClass.swift in Sources */,
+				287EC4CC2C0AE02D00C489C9 /* SignedInUser+CoreDataClass.swift in Sources */,
+				287EC4CF2C0AE06C00C489C9 /* AppFlow.swift in Sources */,
 				283FEFEE2BF9E97E00E43E51 /* CoreDataExample.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
