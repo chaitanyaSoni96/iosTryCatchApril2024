@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="gM9-mB-9XS">
-                                <rect key="frame" x="18.333333333333343" y="304.66666666666669" width="356.33333333333326" height="242.66666666666669"/>
+                                <rect key="frame" x="18.333333333333343" y="294.66666666666663" width="356.33333333333326" height="262.66666666666663"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6Jf-rq-84z">
                                         <rect key="frame" x="0.0" y="0.0" width="356.33333333333331" height="200.33333333333334"/>
@@ -25,14 +25,27 @@
                                             <constraint firstAttribute="width" secondItem="6Jf-rq-84z" secondAttribute="height" multiplier="16:9" id="o0h-gM-725"/>
                                         </constraints>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="okL-ey-bqc">
-                                        <rect key="frame" x="124.66666666666669" y="208.33333333333331" width="107" height="34.333333333333343"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Pick Image"/>
-                                        <connections>
-                                            <action selector="pickImageTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9PO-F6-SPt"/>
-                                        </connections>
-                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OYa-UB-Izf">
+                                        <rect key="frame" x="6" y="208.33333333333331" width="344.66666666666669" height="54.333333333333314"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="okL-ey-bqc">
+                                                <rect key="frame" x="0.0" y="0.0" width="172.33333333333334" height="54.333333333333336"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="UIImagePickerController"/>
+                                                <connections>
+                                                    <action selector="pickImageTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9PO-F6-SPt"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fDq-be-xv7">
+                                                <rect key="frame" x="172.33333333333331" y="0.0" width="172.33333333333331" height="54.333333333333336"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="PHPickerViewController"/>
+                                                <connections>
+                                                    <action selector="pickPHImageTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fnb-Xk-FkU"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -48,7 +61,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="imagePickerButton" destination="okL-ey-bqc" id="Eab-Xz-4qU"/>
                         <outlet property="imageView" destination="6Jf-rq-84z" id="9Uh-JE-iLp"/>
+                        <outlet property="phPickerButton" destination="fDq-be-xv7" id="28W-o7-mlX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
