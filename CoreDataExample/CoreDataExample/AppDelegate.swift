@@ -7,6 +7,7 @@
 
 import UIKit
 import CoreData
+import IQKeyboardManagerSwift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -23,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        user.password = "123456789"
 //        
 //        saveContext()
-        
+        IQKeyboardManager.shared.enable = true
         return true
     }
 

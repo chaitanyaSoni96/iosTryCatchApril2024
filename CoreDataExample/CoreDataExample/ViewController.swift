@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
+        titleTF.becomeFirstResponder()
         
     }
     
@@ -38,6 +38,8 @@ class ViewController: UIViewController {
         listRefreshTrigger?()
         self.dismiss(animated: true)
     }
-
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
 }
 
