@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5eR-0X-wkc">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="dV5-nB-vPC">
+            <objects>
+                <viewController id="5eR-0X-wkc" customClass="ViewController" customModule="EggTimer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b5x-hL-qf2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Egg Timer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wK2-q2-alZ">
+                                <rect key="frame" x="0.0" y="48" width="414" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="POq-ec-Ent"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="86A-We-Yd1">
+                                <rect key="frame" x="114" y="396" width="186" height="104"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zl2-en-DHg">
+                                        <rect key="frame" x="0.0" y="0.0" width="186" height="60"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="lI3-Ff-UnP">
+                                        <rect key="frame" x="0.0" y="60" width="186" height="44"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dPt-RH-qqZ">
+                                                <rect key="frame" x="0.0" y="0.0" width="62" height="44"/>
+                                                <color key="tintColor" systemColor="systemRedColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain">
+                                                    <imageReference key="image" image="restart.circle.fill" catalog="system" symbolScale="large" renderingMode="template"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="25" scale="large" weight="regular"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="restartTimerTapped:" destination="5eR-0X-wkc" eventType="touchUpInside" id="fqp-ZB-odL"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jah-6f-Cd8">
+                                                <rect key="frame" x="62" y="0.0" width="62" height="44"/>
+                                                <color key="tintColor" systemColor="systemRedColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain">
+                                                    <imageReference key="image" image="pause.circle.fill" catalog="system" symbolScale="large" renderingMode="template"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="25" scale="large" weight="regular"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="pauseTimerTapped:" destination="5eR-0X-wkc" eventType="touchUpInside" id="kxv-KI-yX5"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Non-Lu-BUl">
+                                                <rect key="frame" x="124" y="0.0" width="62" height="44"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="44" id="AY6-OS-btM"/>
+                                                </constraints>
+                                                <color key="tintColor" systemColor="systemRedColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain">
+                                                    <imageReference key="image" image="play.circle.fill" catalog="system" symbolScale="large" renderingMode="template"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="25" scale="large" weight="regular"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="startTimerTapped:" destination="5eR-0X-wkc" eventType="touchUpInside" id="bVy-ED-3B4"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ifL-4j-Mtg">
+                                <rect key="frame" x="16" y="814" width="382" height="32"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ss-Pw-Zqi">
+                                        <rect key="frame" x="0.0" y="0.0" width="127.5" height="32"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Runny Yolk">
+                                            <fontDescription key="titleFontDescription" style="UICTFontTextStyleSubhead"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="runnyYolkTapped:" destination="5eR-0X-wkc" eventType="touchUpInside" id="flx-hA-WBh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n90-L2-eGw">
+                                        <rect key="frame" x="127.5" y="0.0" width="127" height="32"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Soft Boiled">
+                                            <fontDescription key="titleFontDescription" style="UICTFontTextStyleSubhead"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="softBoiledTapped:" destination="5eR-0X-wkc" eventType="touchUpInside" id="A1A-jg-Nur"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pc1-dV-SPj">
+                                        <rect key="frame" x="254.5" y="0.0" width="127.5" height="32"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Hard Boiled">
+                                            <fontDescription key="titleFontDescription" style="UICTFontTextStyleSubhead"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="hardBoiledTapped:" destination="5eR-0X-wkc" eventType="touchUpInside" id="P9q-Ra-gLo"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="i98-gQ-HW8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="i98-gQ-HW8" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="86A-We-Yd1" secondAttribute="bottom" id="0yj-Dl-prI"/>
+                            <constraint firstItem="wK2-q2-alZ" firstAttribute="top" secondItem="i98-gQ-HW8" secondAttribute="top" id="9Q9-eM-AYA"/>
+                            <constraint firstItem="i98-gQ-HW8" firstAttribute="bottom" secondItem="ifL-4j-Mtg" secondAttribute="bottom" constant="16" id="HWe-vg-c97"/>
+                            <constraint firstItem="86A-We-Yd1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="i98-gQ-HW8" secondAttribute="leading" id="IfL-Yw-LcD"/>
+                            <constraint firstItem="wK2-q2-alZ" firstAttribute="leading" secondItem="b5x-hL-qf2" secondAttribute="leading" id="KjZ-rA-vZS"/>
+                            <constraint firstItem="86A-We-Yd1" firstAttribute="centerY" secondItem="b5x-hL-qf2" secondAttribute="centerY" id="NJV-iB-kPI"/>
+                            <constraint firstItem="86A-We-Yd1" firstAttribute="centerX" secondItem="b5x-hL-qf2" secondAttribute="centerX" id="cAY-PX-ljK"/>
+                            <constraint firstItem="i98-gQ-HW8" firstAttribute="trailing" secondItem="ifL-4j-Mtg" secondAttribute="trailing" constant="16" id="dx2-jR-2LU"/>
+                            <constraint firstItem="i98-gQ-HW8" firstAttribute="trailing" secondItem="wK2-q2-alZ" secondAttribute="trailing" id="i2U-y1-HyY"/>
+                            <constraint firstItem="ifL-4j-Mtg" firstAttribute="leading" secondItem="i98-gQ-HW8" secondAttribute="leading" constant="16" id="i8Q-mw-6lj"/>
+                            <constraint firstItem="86A-We-Yd1" firstAttribute="top" relation="greaterThanOrEqual" secondItem="wK2-q2-alZ" secondAttribute="bottom" id="lHV-XK-pd6"/>
+                            <constraint firstItem="i98-gQ-HW8" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="86A-We-Yd1" secondAttribute="trailing" id="wM4-hh-m4t"/>
+                            <constraint firstItem="ifL-4j-Mtg" firstAttribute="top" relation="greaterThanOrEqual" secondItem="86A-We-Yd1" secondAttribute="bottom" id="wZv-Cv-sPc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="startTimerButton" destination="Non-Lu-BUl" id="Enx-X0-nBW"/>
+                        <outlet property="timerLabel" destination="zl2-en-DHg" id="Qem-6Y-1NZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gmg-XV-Y00" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="754" y="-157"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pause.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="play.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="restart.circle.fill" catalog="system" width="128" height="123"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

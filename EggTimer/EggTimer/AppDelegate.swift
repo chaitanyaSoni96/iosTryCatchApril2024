@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  CoreDataExample
+//  EggTimer
 //
-//  Created by Chaitanya Soni on 19/05/24.
+//  Created by Chaitanya Soni on 02/06/24.
 //
 
 import UIKit
@@ -11,19 +11,10 @@ import CoreData
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    static var shared: AppDelegate { UIApplication.shared.delegate as! AppDelegate }
+
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
-//        let user = User(context: persistentContainer.viewContext)
-//        user.id = .init()
-//        user.name = "Chaitanya Soni"
-//        user.username = "sonichaitanya13"
-//        user.password = "123456789"
-//        
-//        saveContext()
-        
         return true
     }
 
@@ -50,8 +41,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        
-        let container = NSPersistentContainer(name: "CoreDataExample")
+        let container = NSPersistentContainer(name: "EggTimer")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
@@ -70,7 +60,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         })
         return container
     }()
-    
+
     // MARK: - Core Data Saving support
 
     func saveContext () {
