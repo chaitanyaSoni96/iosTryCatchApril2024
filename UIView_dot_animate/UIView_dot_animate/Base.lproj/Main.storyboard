@@ -1,24 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UIView_dot_animate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Cb-zM-geY">
+                                <rect key="frame" x="159" y="388.66666666666669" width="75" height="75"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="8Cb-zM-geY" secondAttribute="height" multiplier="1:1" id="EWu-E9-TQH"/>
+                                    <constraint firstAttribute="width" constant="75" id="dU8-il-xCx"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="RVi-fm-SK6" appends="YES" id="2Po-ac-1nq"/>
+                                </connections>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8Cb-zM-geY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="LfT-nn-dfP"/>
+                            <constraint firstItem="8Cb-zM-geY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PC1-0u-WlH"/>
+                            <constraint firstItem="8Cb-zM-geY" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" id="PhT-d2-1KJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="8Cb-zM-geY" secondAttribute="bottom" id="jkF-p6-xyC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8Cb-zM-geY" secondAttribute="trailing" id="pVj-91-0Hh"/>
+                            <constraint firstItem="8Cb-zM-geY" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tJb-lT-Cfi"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="boxView" destination="8Cb-zM-geY" id="Vj9-9W-aF1"/>
+                        <outlet property="boxViewCenterX" destination="PC1-0u-WlH" id="uD6-gl-Y8r"/>
+                        <outlet property="boxViewCenterY" destination="LfT-nn-dfP" id="OlF-e3-5xG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="RVi-fm-SK6">
+                    <connections>
+                        <action selector="tap:" destination="BYZ-38-t0r" id="lwh-ks-3AQ"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="102" y="4"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="evh-k7-cYg">
+            <objects>
+                <viewController storyboardIdentifier="ViewController2" id="nRT-jz-oqB" customClass="ViewController2" customModule="UIView_dot_animate" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gpW-s9-2uq">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="dle-tb-s4g">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ENQ-et-5vp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dle-tb-s4g" firstAttribute="top" secondItem="ENQ-et-5vp" secondAttribute="top" id="2kJ-zS-sQh"/>
+                            <constraint firstItem="ENQ-et-5vp" firstAttribute="trailing" secondItem="dle-tb-s4g" secondAttribute="trailing" id="AT0-cP-hJA"/>
+                            <constraint firstItem="dle-tb-s4g" firstAttribute="leading" secondItem="ENQ-et-5vp" secondAttribute="leading" id="H4C-tS-XL6"/>
+                            <constraint firstItem="ENQ-et-5vp" firstAttribute="bottom" secondItem="dle-tb-s4g" secondAttribute="bottom" id="hmb-sE-o3Q"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="dle-tb-s4g" id="Sce-xW-IMJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V3n-ia-WKy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1016" y="-100"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
