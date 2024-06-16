@@ -52,4 +52,20 @@ class TableViewController: UITableViewController {
         cell.detailTextLabel?.text = data?[indexPath.row].taskDescription
         return cell
     }
+    
+    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if (editingStyle == .delete) {
+            // handle delete (by removing the data from your array and updating the tableview)
+            
+            if let data = data?[indexPath.row] {
+                AppDelegate.shared.persistentContainer.viewContext.delete(data)
+                AppDelegate.shared.saveContext()
+                refreshFromDatabase()
+            }
+        }
+    }
 }
