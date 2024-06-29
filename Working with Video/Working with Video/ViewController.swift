@@ -29,8 +29,7 @@ class ViewController: UIViewController {
             player.play()
             
         }
-        
-        
+        NotificationCenter.default.addObserver(self, selector: #selector(self.shakeDetected), name: UIDevice.deviceDidShakeNotification, object: nil)
     }
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
@@ -41,5 +40,9 @@ class ViewController: UIViewController {
         CATransaction.commit()
     }
 
+    @objc func shakeDetected() {
+        print("shake detected")
+        playerContainer.isHidden.toggle()
+    }
 }
 

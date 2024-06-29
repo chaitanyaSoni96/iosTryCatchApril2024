@@ -1,11 +1,12 @@
 //
 //  AppDelegate.swift
-//  Working with Video
+//  Working with images
 //
-//  Created by Chaitanya Soni on 16/06/24.
+//  Created by Chaitanya Soni on 29/06/24.
 //
 
 import UIKit
+import SDWebImage
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,6 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        SDImageCache.shared.config.maxDiskSize = 0
+        
         return true
     }
 
@@ -34,15 +37,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
-extension UIDevice {
-    static let deviceDidShakeNotification = Notification.Name(rawValue: "deviceDidShakeNotification")
-}
-
-//  Override the default behavior of shake gestures to send our notification instead.
-extension UIWindow {
-     open override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
-        if motion == .motionShake {
-            NotificationCenter.default.post(name: UIDevice.deviceDidShakeNotification, object: nil)
-        }
-     }
+extension AppDelegate: UNUserNotificationCenterDelegate {
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        
+    }
 }
