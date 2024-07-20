@@ -8,6 +8,7 @@ target 'Login Example' do
   # Pods for Login Example
 
   pod 'DropDown'
+  pod 'SWRevealViewController', '~> 2.3'
   
 end
 

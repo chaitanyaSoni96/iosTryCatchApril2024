@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-
+import SWRevealViewController
 import DropDown
 
 //struct HomeModel {
@@ -31,17 +31,23 @@ import DropDown
 //}
 
 class HomeViewController: UIViewController, StoryboardLoadable {
-    static func instantiate() -> Self {
+    static func instantiate() -> UIViewController {
         let storyboard = UIStoryboard(name: "Main", bundle: .main)
         let vc = storyboard.instantiateViewController(withIdentifier: String(describing: Self.self)) as! Self
-//        vc.viewModel = HomeViewModel()
-        return vc
+        let swRevealVC = SWRevealViewController(rearViewController: nil, frontViewController: UINavigationController(rootViewController: vc))
+        swRevealVC?.rightViewController = RightViewController.instantiate()
+        swRevealVC?.delegate = vc
+        return swRevealVC ?? .init()
     }
     
 //    var viewModel: HomeViewModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
+        self.view.addGestureRecognizer(revealViewController().panGestureRecognizer())
+        
+        
 //        self.viewModel.delegate = self
     }
     
@@ -60,6 +66,16 @@ class HomeViewController: UIViewController, StoryboardLoadable {
             print(index, title)
         }
         dropdown.show()
+    }
+    @IBAction func menuTapped(_ sender: Any) {
+        
+        self.revealViewController().rightRevealToggle(animated: true)
+        
+    }
+}
+extension HomeViewController: SWRevealViewControllerDelegate {
+    func revealController(_ revealController: SWRevealViewController!, animationControllerFor operation: SWRevealControllerOperation, from fromVC: UIViewController!, to toVC: UIViewController!) -> UIViewControllerAnimatedTransitioning! {
+        return nil
     }
 }
 //extension HomeViewController: HomeViewModelDelegate {

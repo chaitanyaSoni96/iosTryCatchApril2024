@@ -3,92 +3,127 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2DF26CD96DC675613F8B7B4B39DED076 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		34D86F4481D9328BF45B637B906B3122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		515E22E4255B6073C1897BDDB091A2B8 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87586FE2C9DECB6AE7FCA3238E4A1B8 /* DropDown+Appearance.swift */; };
-		65653370249D48C1DAC1AF4E42E69961 /* Pods-Login Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F4E0F538D835DE1861DEDB43FD0AC5 /* Pods-Login Example-dummy.m */; };
-		68E1653C561E14BBEAC9CF4873570D58 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEBC6D732E1B0C41C6A8D03A8C81CF47 /* DropDownCell.xib */; };
-		74012B832FAF67F8D62A2B27CDAFE8B5 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3761A77A038E79C8451C03293CDA4FC0 /* DPDConstants.swift */; };
-		84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC1AD54C344AFD4E184B9586BFE267 /* DropDown.swift */; };
-		89A72A55273CE358DC4E7600F785C37B /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBB2377069976EC65992A59335066D3 /* DPDKeyboardListener.swift */; };
-		907338727C09F65DB75AA7AB9E10C3B4 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF17E1BF2597D8F37F69DB34CA024E5C /* DropDown-dummy.m */; };
-		B73E510E851686F8184E26986A470458 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451F84589A96D52448FD74E261268404 /* DPDUIView+Extension.swift */; };
-		BDC10974A8641F01C5665C61EA37A153 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EA092CDFBD4C66A29A9CDEA1DE78E1 /* DropDownCell.swift */; };
-		C8A9FD23A4756AC83138C615B4F82F70 /* Pods-Login ExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DCF448B2BC065FF877443A03193A7D /* Pods-Login ExampleUITests-dummy.m */; };
-		DFA6AE709FF4C8B9AC48E9B22EA1396F /* Pods-Login Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6251CD93C7F19B98E1A81BDB776CFAB3 /* Pods-Login Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8F61850F82D6CC477FAF8326336FD5A /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2FEACC034A810FBA49A8559917724AE /* Pods-Login ExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C7125727B5EC8FB5C5EB60EC38D4F /* Pods-Login ExampleTests-dummy.m */; };
+		1A3D3AB3A6407053F2A50408CB1A9D6E /* SWRevealViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDB07661D66D637C0DDDA31F5177F54 /* SWRevealViewController-dummy.m */; };
+		34D86F4481D9328BF45B637B906B3122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */; };
+		44FE58022D34422A3C7B07F5CABCEB3A /* Pods-Login Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D928D43EC619933C4BA7DA761E0E1 /* Pods-Login Example-dummy.m */; };
+		4A1563F5E5E54554B7CEFFF18655382C /* Pods-Login ExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9024C97AF2AA2562D4FD1A4B505AFDFE /* Pods-Login ExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		515E22E4255B6073C1897BDDB091A2B8 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF000A6F9F1B80A313F67C457069F43 /* DropDown+Appearance.swift */; };
+		6145576AEAAB74468EF41652E8F8565E /* Pods-Login ExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A075D3140EA938F5D22FE87BC85079EA /* Pods-Login ExampleUITests-dummy.m */; };
+		65B49625679641415653FDAE25E956CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */; };
+		68E1653C561E14BBEAC9CF4873570D58 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADF3562D3B5AFB99487045EC76FF8765 /* DropDownCell.xib */; };
+		706161407BC9E341B394E926AB37233C /* Pods-Login ExampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9CD1E5AD379706CE309986D13746DAD /* Pods-Login ExampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74012B832FAF67F8D62A2B27CDAFE8B5 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D916E9BF236EBE9E52009CDCFF8CF3 /* DPDConstants.swift */; };
+		84259E5E3589ED4FFAC1A580F3D65DF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */; };
+		84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C552BC970259F5ED20942B279D62140 /* DropDown.swift */; };
+		89A72A55273CE358DC4E7600F785C37B /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79C26419760B3F5C07D089795E00841 /* DPDKeyboardListener.swift */; };
+		907338727C09F65DB75AA7AB9E10C3B4 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF094A3037B13574E56793DFD1D16D7 /* DropDown-dummy.m */; };
+		A6E91C730B5FED60216F94998387065B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */; };
+		B73E510E851686F8184E26986A470458 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFC21761BA1E63198424458889BBDC0 /* DPDUIView+Extension.swift */; };
+		BDC10974A8641F01C5665C61EA37A153 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED360536B195263389BE26E8EC31EAC7 /* DropDownCell.swift */; };
+		CF081E9B74499B39273E483299000226 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */; };
+		D068D27AFD5DDB885EA4D2F1A066106F /* Pods-Login Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EDE1CFDF1C31663CEA50565E2CCE939 /* Pods-Login Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D118128A6F131749BD228C5824370F57 /* Pods-Login ExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0ED844BA0021B263635DFD1C004F6C6 /* Pods-Login ExampleTests-dummy.m */; };
+		D1A2EAE48CCBF348164838EB698C4902 /* SWRevealViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3B17B9056AB0A6F6A4E6948B335276 /* SWRevealViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEDA70185E4C46129F3BB0A1FDCFB8B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B68540C55CA43970CDF0C24725F02FA /* CoreGraphics.framework */; };
+		E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29D04F8A812947CE953747E0AFCE9594 /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1DB568652F2922227CCB097A5629C49 /* SWRevealViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4738005D96B54EFA802E40C1C25153F4 /* SWRevealViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCC6E4A1F3FE9D67181B18D31BD7D0DC /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 641E2BFEA93C2070027932D76037E42E /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		824DAE0A92291A8117BC222B24291E0F /* PBXContainerItemProxy */ = {
+		2285886354B96E28EFED350810E3FE22 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
 			remoteInfo = DropDown;
 		};
+		507B6CE56F98E598F0FB2436E5DCFEDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A54C3C20DA76528607950189DA743CA4;
+			remoteInfo = SWRevealViewController;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04C7F8DD8A1C0904527DAD01157AE374 /* Pods-Login ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Login ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		1E64A7314AEFD1B951346B7573194727 /* Pods-Login ExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Login ExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		28539757DCAFE530041A4D117AD6F65C /* Pods-Login ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Login ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2CB66E4303E518BDE1754DFB49B571C4 /* Pods-Login Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Login Example-frameworks.sh"; sourceTree = "<group>"; };
-		2F8A529C653A26F8D0B57E1CD7B2B5E6 /* DropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
-		2FCC1AD54C344AFD4E184B9586BFE267 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
-		3761A77A038E79C8451C03293CDA4FC0 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
-		3909EF130F2404ED3AA6F66A9D9A7159 /* Pods-Login ExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Login ExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		015A348854A08F263D299F34908398FC /* Pods-Login Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Login Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0699307EE79340F9DEF384C2BABDF006 /* SWRevealViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SWRevealViewController.modulemap; sourceTree = "<group>"; };
+		07D916E9BF236EBE9E52009CDCFF8CF3 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		08BF6AA3B50E6FEEE415A3461B17533D /* Pods-Login Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Login Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0F64A062E23A382477026799014E6464 /* Pods-Login ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Login ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		1151304EA418F2160CD7E155BB0EA636 /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		13D0AE8540E15E4A5BC2E7E61A86C204 /* Pods-Login ExampleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Login ExampleUITests-Info.plist"; sourceTree = "<group>"; };
+		19A5F5671E1EB60544493621D75F70B9 /* Pods-Login Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Login Example.modulemap"; sourceTree = "<group>"; };
+		1C552BC970259F5ED20942B279D62140 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
+		1D609126CE09A834A3AD4A1FE6C99941 /* Pods-Login Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Login Example-frameworks.sh"; sourceTree = "<group>"; };
+		29D04F8A812947CE953747E0AFCE9594 /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		2A1D928D43EC619933C4BA7DA761E0E1 /* Pods-Login Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Login Example-dummy.m"; sourceTree = "<group>"; };
+		34523DA33C4E638E656FB3DF7CF2DED6 /* DropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
+		373E53C5ABE7C1ECC238D5359F069553 /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		3DDC8EDAFEE4F482C09AC4F43419F981 /* Pods-Login ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Login ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3EAEEE573A19059A2EC7E959FCA6D592 /* Pods-Login Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Login Example"; path = Pods_Login_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		451F84589A96D52448FD74E261268404 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
-		49EAF87A15CFD4FFACF74889FF5BEA0C /* Pods-Login Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Login Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4A9C7125727B5EC8FB5C5EB60EC38D4F /* Pods-Login ExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Login ExampleTests-dummy.m"; sourceTree = "<group>"; };
-		56FCE6C84C3E5E9F7B2F22E9C43DA382 /* Pods-Login ExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Login ExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5B75BFE36FB002F268BA523E79DCFAE5 /* Pods-Login Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Login Example.modulemap"; sourceTree = "<group>"; };
-		6251CD93C7F19B98E1A81BDB776CFAB3 /* Pods-Login Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Login Example-umbrella.h"; sourceTree = "<group>"; };
-		6657C8197D54037AA6F3DB52F6F66DA0 /* Pods-Login ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Login ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		730D85BE0320FD50EA665A82042E5742 /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
-		89D1345DAF28679D4570D5DA2DCFA944 /* Pods-Login ExampleUITests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Login ExampleUITests"; path = "libPods-Login ExampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DBB2377069976EC65992A59335066D3 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
-		93EA092CDFBD4C66A29A9CDEA1DE78E1 /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		3EDE1CFDF1C31663CEA50565E2CCE939 /* Pods-Login Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Login Example-umbrella.h"; sourceTree = "<group>"; };
+		43966DE6712EDEA80E88DA3A3425E6A8 /* Pods-Login ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Login ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		445360D36E9CF13618FC9DA47D2C3AAF /* Pods-Login ExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Login ExampleTests.modulemap"; sourceTree = "<group>"; };
+		4738005D96B54EFA802E40C1C25153F4 /* SWRevealViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
+		4834AED72AECFBD41067C3F835BFC659 /* Pods-Login ExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Login ExampleUITests.modulemap"; sourceTree = "<group>"; };
+		4B68540C55CA43970CDF0C24725F02FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		588D5024959216BA55E878266E0BC9D9 /* Pods-Login ExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Login ExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		641E2BFEA93C2070027932D76037E42E /* SWRevealViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
+		6AFC21761BA1E63198424458889BBDC0 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		6C788C3759486B5A5D62E8629AEB6462 /* SWRevealViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWRevealViewController.debug.xcconfig; sourceTree = "<group>"; };
+		7BDB07661D66D637C0DDDA31F5177F54 /* SWRevealViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWRevealViewController-dummy.m"; sourceTree = "<group>"; };
+		83C0E797FADBE39B9AC0DBF995DA356E /* Pods-Login ExampleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Login ExampleTests-Info.plist"; sourceTree = "<group>"; };
+		89D1345DAF28679D4570D5DA2DCFA944 /* Pods-Login ExampleUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Login ExampleUITests"; path = Pods_Login_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9024C97AF2AA2562D4FD1A4B505AFDFE /* Pods-Login ExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Login ExampleTests-umbrella.h"; sourceTree = "<group>"; };
+		931DC21CD983497C8CBE120E59247055 /* Pods-Login ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Login ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9B6725B782188F18CB76A740433F14E4 /* DropDown */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C15EB8657063755722D9C7DC8D72885 /* DropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A5DCF448B2BC065FF877443A03193A7D /* Pods-Login ExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Login ExampleUITests-dummy.m"; sourceTree = "<group>"; };
-		A87586FE2C9DECB6AE7FCA3238E4A1B8 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
-		A91B4074316D5EEDE3ABF582896D01AC /* Pods-Login Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Login Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AF17E1BF2597D8F37F69DB34CA024E5C /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
-		BA722C0C495C6E7ECD0B16521F25A928 /* Pods-Login Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Login Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		BB5EB86E059EF877A686D98374864D65 /* Pods-Login ExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Login ExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C3F4E0F538D835DE1861DEDB43FD0AC5 /* Pods-Login Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Login Example-dummy.m"; sourceTree = "<group>"; };
-		C6944E6E36BB783BE6B90EF5B44C40E9 /* Pods-Login ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Login ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		CD801BF8374FAE5C18BCF509376B7EC3 /* Pods-Login Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Login Example.release.xcconfig"; sourceTree = "<group>"; };
-		CEF32416BF1A840DA8F3393B19C5B4A3 /* Pods-Login ExampleTests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Login ExampleTests"; path = "libPods-Login ExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D970839B4B79619E87ABE3CC7BC25C07 /* Pods-Login Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Login Example-Info.plist"; sourceTree = "<group>"; };
-		DCD9DE78A7260CA1D999340CF0124D1D /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
-		E5834E7BD925BD3ED29331C1938CC0B7 /* DropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.debug.xcconfig; sourceTree = "<group>"; };
-		EEBC6D732E1B0C41C6A8D03A8C81CF47 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
-		F8F61850F82D6CC477FAF8326336FD5A /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		A075D3140EA938F5D22FE87BC85079EA /* Pods-Login ExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Login ExampleUITests-dummy.m"; sourceTree = "<group>"; };
+		A7DF86F62C9AAC1FFBEE8430CFA4712F /* Pods-Login Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Login Example-Info.plist"; sourceTree = "<group>"; };
+		ADF3562D3B5AFB99487045EC76FF8765 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		B0272689FEB1E32366EB5573F9665481 /* Pods-Login Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Login Example.release.xcconfig"; sourceTree = "<group>"; };
+		B64496490E2491FDA8EBA076658E6513 /* SWRevealViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWRevealViewController-prefix.pch"; sourceTree = "<group>"; };
+		C207DA5D32E6CB317B0C63A290526114 /* SWRevealViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SWRevealViewController-Info.plist"; sourceTree = "<group>"; };
+		C235BFB35264452D2AF7931AFD60BDA3 /* DropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.release.xcconfig; sourceTree = "<group>"; };
+		C73070E60A048E7D5C387968A9E0C2D0 /* DropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.debug.xcconfig; sourceTree = "<group>"; };
+		CD3B17B9056AB0A6F6A4E6948B335276 /* SWRevealViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWRevealViewController-umbrella.h"; sourceTree = "<group>"; };
+		CEF32416BF1A840DA8F3393B19C5B4A3 /* Pods-Login ExampleTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Login ExampleTests"; path = Pods_Login_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A923FDE4E5E67902E4BC82C7E9BAE6 /* Pods-Login ExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Login ExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D334B9CDEC21015DD48358DB94CB1CFA /* SWRevealViewController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWRevealViewController; path = SWRevealViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE62C12FB329681DE5E1A94A0AB29E7 /* Pods-Login ExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Login ExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E0ED844BA0021B263635DFD1C004F6C6 /* Pods-Login ExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Login ExampleTests-dummy.m"; sourceTree = "<group>"; };
+		E30FDD7D25B8F152F85D9D81CC1B5F06 /* Pods-Login ExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Login ExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E55D527CD8B733184F2C0483722D79FB /* Pods-Login Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Login Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E9CD1E5AD379706CE309986D13746DAD /* Pods-Login ExampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Login ExampleUITests-umbrella.h"; sourceTree = "<group>"; };
+		EAF000A6F9F1B80A313F67C457069F43 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		ED360536B195263389BE26E8EC31EAC7 /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		EFF094A3037B13574E56793DFD1D16D7 /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		F79C26419760B3F5C07D089795E00841 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		F839E1EDAEFF0900D692DC113BF4ECB7 /* SWRevealViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWRevealViewController.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		29B4E65173B6826AF519A0AEB5DC4937 /* Frameworks */ = {
+		0F5FC032A97F97A3DF31DBEF43211AA7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6E91C730B5FED60216F94998387065B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B624F55527EAAE469A39587DFEFA030 /* Frameworks */ = {
+		661C5098EF5BB54D66EA57F06EEB35CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DF26CD96DC675613F8B7B4B39DED076 /* Foundation.framework in Frameworks */,
+				CF081E9B74499B39273E483299000226 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,168 +135,224 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD0D2409092675FA54D819E5C854A793 /* Frameworks */ = {
+		9A5F8BBB54A6CA85280A0E1D11AA12DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B49625679641415653FDAE25E956CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC288CE555EFD5E6B2ED0122F482415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDA70185E4C46129F3BB0A1FDCFB8B6 /* CoreGraphics.framework in Frameworks */,
+				84259E5E3589ED4FFAC1A580F3D65DF5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03D114B328A63C934E528549C2DCFE8D /* Support Files */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DCD9DE78A7260CA1D999340CF0124D1D /* DropDown.modulemap */,
-				AF17E1BF2597D8F37F69DB34CA024E5C /* DropDown-dummy.m */,
-				2F8A529C653A26F8D0B57E1CD7B2B5E6 /* DropDown-Info.plist */,
-				730D85BE0320FD50EA665A82042E5742 /* DropDown-prefix.pch */,
-				F8F61850F82D6CC477FAF8326336FD5A /* DropDown-umbrella.h */,
-				E5834E7BD925BD3ED29331C1938CC0B7 /* DropDown.debug.xcconfig */,
-				9C15EB8657063755722D9C7DC8D72885 /* DropDown.release.xcconfig */,
+				8001EF1E8C372FD31EFFB43C3FBF6F94 /* iOS */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/DropDown";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		057ED11B9D5977F85CBBBEF7C3E69DDB /* Pods */ = {
+		39D6B10605053A215FBA7DCB4996F993 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1340602042F82FB2F98974EB1B0C2387 /* DropDown */,
+				ADF3562D3B5AFB99487045EC76FF8765 /* DropDownCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3D3DFE1BEE30AB25283EB0A07A55037F /* Pods-Login Example */ = {
+			isa = PBXGroup;
+			children = (
+				19A5F5671E1EB60544493621D75F70B9 /* Pods-Login Example.modulemap */,
+				08BF6AA3B50E6FEEE415A3461B17533D /* Pods-Login Example-acknowledgements.markdown */,
+				015A348854A08F263D299F34908398FC /* Pods-Login Example-acknowledgements.plist */,
+				2A1D928D43EC619933C4BA7DA761E0E1 /* Pods-Login Example-dummy.m */,
+				1D609126CE09A834A3AD4A1FE6C99941 /* Pods-Login Example-frameworks.sh */,
+				A7DF86F62C9AAC1FFBEE8430CFA4712F /* Pods-Login Example-Info.plist */,
+				3EDE1CFDF1C31663CEA50565E2CCE939 /* Pods-Login Example-umbrella.h */,
+				E55D527CD8B733184F2C0483722D79FB /* Pods-Login Example.debug.xcconfig */,
+				B0272689FEB1E32366EB5573F9665481 /* Pods-Login Example.release.xcconfig */,
+			);
+			name = "Pods-Login Example";
+			path = "Target Support Files/Pods-Login Example";
+			sourceTree = "<group>";
+		};
+		8001EF1E8C372FD31EFFB43C3FBF6F94 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4B68540C55CA43970CDF0C24725F02FA /* CoreGraphics.framework */,
+				59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		855C69DC91950E7BCF1A48574F301458 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D3DFE1BEE30AB25283EB0A07A55037F /* Pods-Login Example */,
+				D3E456F9814C09D4BF394077F71C09D7 /* Pods-Login ExampleTests */,
+				F5FEC3BC0EBBF672E063E8B9EAAD2DD1 /* Pods-Login ExampleUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8D3C9590871C41334561862FDB3036D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED27729573E083585A077DA6CD46150F /* DropDown */,
+				F01CC7056C574AE55690352248E26A7F /* SWRevealViewController */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		1340602042F82FB2F98974EB1B0C2387 /* DropDown */ = {
-			isa = PBXGroup;
-			children = (
-				3761A77A038E79C8451C03293CDA4FC0 /* DPDConstants.swift */,
-				8DBB2377069976EC65992A59335066D3 /* DPDKeyboardListener.swift */,
-				451F84589A96D52448FD74E261268404 /* DPDUIView+Extension.swift */,
-				2FCC1AD54C344AFD4E184B9586BFE267 /* DropDown.swift */,
-				A87586FE2C9DECB6AE7FCA3238E4A1B8 /* DropDown+Appearance.swift */,
-				93EA092CDFBD4C66A29A9CDEA1DE78E1 /* DropDownCell.swift */,
-				C59647B6F3C67ED72D999C113D892AF0 /* Resources */,
-				03D114B328A63C934E528549C2DCFE8D /* Support Files */,
-			);
-			name = DropDown;
-			path = DropDown;
-			sourceTree = "<group>";
-		};
-		242904B2261C510695821BCC90DC6F7F /* Pods-Login ExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				3909EF130F2404ED3AA6F66A9D9A7159 /* Pods-Login ExampleTests-acknowledgements.markdown */,
-				BB5EB86E059EF877A686D98374864D65 /* Pods-Login ExampleTests-acknowledgements.plist */,
-				4A9C7125727B5EC8FB5C5EB60EC38D4F /* Pods-Login ExampleTests-dummy.m */,
-				28539757DCAFE530041A4D117AD6F65C /* Pods-Login ExampleTests.debug.xcconfig */,
-				C6944E6E36BB783BE6B90EF5B44C40E9 /* Pods-Login ExampleTests.release.xcconfig */,
-			);
-			name = "Pods-Login ExampleTests";
-			path = "Target Support Files/Pods-Login ExampleTests";
-			sourceTree = "<group>";
-		};
-		25B0A61B8A26E2D019269FA0F6FA3F1D /* Products */ = {
+		A68B2CCF41014B082C0D31849ECC6014 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				9B6725B782188F18CB76A740433F14E4 /* DropDown */,
 				3EAEEE573A19059A2EC7E959FCA6D592 /* Pods-Login Example */,
 				CEF32416BF1A840DA8F3393B19C5B4A3 /* Pods-Login ExampleTests */,
 				89D1345DAF28679D4570D5DA2DCFA944 /* Pods-Login ExampleUITests */,
+				D334B9CDEC21015DD48358DB94CB1CFA /* SWRevealViewController */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		6B1DFB87C0524F0931C8886649E0AFED /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EA37C51FA3101313A1ECF250FF726506 /* Pods-Login Example */,
-				242904B2261C510695821BCC90DC6F7F /* Pods-Login ExampleTests */,
-				889F6EF5E4423E2A204BAD1729B88602 /* Pods-Login ExampleUITests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		889F6EF5E4423E2A204BAD1729B88602 /* Pods-Login ExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1E64A7314AEFD1B951346B7573194727 /* Pods-Login ExampleUITests-acknowledgements.markdown */,
-				56FCE6C84C3E5E9F7B2F22E9C43DA382 /* Pods-Login ExampleUITests-acknowledgements.plist */,
-				A5DCF448B2BC065FF877443A03193A7D /* Pods-Login ExampleUITests-dummy.m */,
-				04C7F8DD8A1C0904527DAD01157AE374 /* Pods-Login ExampleUITests.debug.xcconfig */,
-				6657C8197D54037AA6F3DB52F6F66DA0 /* Pods-Login ExampleUITests.release.xcconfig */,
-			);
-			name = "Pods-Login ExampleUITests";
-			path = "Target Support Files/Pods-Login ExampleUITests";
-			sourceTree = "<group>";
-		};
-		C59647B6F3C67ED72D999C113D892AF0 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				EEBC6D732E1B0C41C6A8D03A8C81CF47 /* DropDownCell.xib */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				057ED11B9D5977F85CBBBEF7C3E69DDB /* Pods */,
-				25B0A61B8A26E2D019269FA0F6FA3F1D /* Products */,
-				6B1DFB87C0524F0931C8886649E0AFED /* Targets Support Files */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				8D3C9590871C41334561862FDB3036D3 /* Pods */,
+				A68B2CCF41014B082C0D31849ECC6014 /* Products */,
+				855C69DC91950E7BCF1A48574F301458 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		CF9E5502635C7A05794DCD175531E635 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				0699307EE79340F9DEF384C2BABDF006 /* SWRevealViewController.modulemap */,
+				7BDB07661D66D637C0DDDA31F5177F54 /* SWRevealViewController-dummy.m */,
+				C207DA5D32E6CB317B0C63A290526114 /* SWRevealViewController-Info.plist */,
+				B64496490E2491FDA8EBA076658E6513 /* SWRevealViewController-prefix.pch */,
+				CD3B17B9056AB0A6F6A4E6948B335276 /* SWRevealViewController-umbrella.h */,
+				6C788C3759486B5A5D62E8629AEB6462 /* SWRevealViewController.debug.xcconfig */,
+				F839E1EDAEFF0900D692DC113BF4ECB7 /* SWRevealViewController.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/SWRevealViewController";
 			sourceTree = "<group>";
 		};
-		EA37C51FA3101313A1ECF250FF726506 /* Pods-Login Example */ = {
+		D3E456F9814C09D4BF394077F71C09D7 /* Pods-Login ExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				5B75BFE36FB002F268BA523E79DCFAE5 /* Pods-Login Example.modulemap */,
-				49EAF87A15CFD4FFACF74889FF5BEA0C /* Pods-Login Example-acknowledgements.markdown */,
-				BA722C0C495C6E7ECD0B16521F25A928 /* Pods-Login Example-acknowledgements.plist */,
-				C3F4E0F538D835DE1861DEDB43FD0AC5 /* Pods-Login Example-dummy.m */,
-				2CB66E4303E518BDE1754DFB49B571C4 /* Pods-Login Example-frameworks.sh */,
-				D970839B4B79619E87ABE3CC7BC25C07 /* Pods-Login Example-Info.plist */,
-				6251CD93C7F19B98E1A81BDB776CFAB3 /* Pods-Login Example-umbrella.h */,
-				A91B4074316D5EEDE3ABF582896D01AC /* Pods-Login Example.debug.xcconfig */,
-				CD801BF8374FAE5C18BCF509376B7EC3 /* Pods-Login Example.release.xcconfig */,
+				445360D36E9CF13618FC9DA47D2C3AAF /* Pods-Login ExampleTests.modulemap */,
+				588D5024959216BA55E878266E0BC9D9 /* Pods-Login ExampleTests-acknowledgements.markdown */,
+				DEE62C12FB329681DE5E1A94A0AB29E7 /* Pods-Login ExampleTests-acknowledgements.plist */,
+				E0ED844BA0021B263635DFD1C004F6C6 /* Pods-Login ExampleTests-dummy.m */,
+				83C0E797FADBE39B9AC0DBF995DA356E /* Pods-Login ExampleTests-Info.plist */,
+				9024C97AF2AA2562D4FD1A4B505AFDFE /* Pods-Login ExampleTests-umbrella.h */,
+				43966DE6712EDEA80E88DA3A3425E6A8 /* Pods-Login ExampleTests.debug.xcconfig */,
+				0F64A062E23A382477026799014E6464 /* Pods-Login ExampleTests.release.xcconfig */,
 			);
-			name = "Pods-Login Example";
-			path = "Target Support Files/Pods-Login Example";
+			name = "Pods-Login ExampleTests";
+			path = "Target Support Files/Pods-Login ExampleTests";
+			sourceTree = "<group>";
+		};
+		ED27729573E083585A077DA6CD46150F /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				07D916E9BF236EBE9E52009CDCFF8CF3 /* DPDConstants.swift */,
+				F79C26419760B3F5C07D089795E00841 /* DPDKeyboardListener.swift */,
+				6AFC21761BA1E63198424458889BBDC0 /* DPDUIView+Extension.swift */,
+				1C552BC970259F5ED20942B279D62140 /* DropDown.swift */,
+				EAF000A6F9F1B80A313F67C457069F43 /* DropDown+Appearance.swift */,
+				ED360536B195263389BE26E8EC31EAC7 /* DropDownCell.swift */,
+				39D6B10605053A215FBA7DCB4996F993 /* Resources */,
+				EFE48BFEDFE615ED0D6A76D1D0CADC56 /* Support Files */,
+			);
+			name = DropDown;
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		EFE48BFEDFE615ED0D6A76D1D0CADC56 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				373E53C5ABE7C1ECC238D5359F069553 /* DropDown.modulemap */,
+				EFF094A3037B13574E56793DFD1D16D7 /* DropDown-dummy.m */,
+				34523DA33C4E638E656FB3DF7CF2DED6 /* DropDown-Info.plist */,
+				1151304EA418F2160CD7E155BB0EA636 /* DropDown-prefix.pch */,
+				29D04F8A812947CE953747E0AFCE9594 /* DropDown-umbrella.h */,
+				C73070E60A048E7D5C387968A9E0C2D0 /* DropDown.debug.xcconfig */,
+				C235BFB35264452D2AF7931AFD60BDA3 /* DropDown.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
+			sourceTree = "<group>";
+		};
+		F01CC7056C574AE55690352248E26A7F /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4738005D96B54EFA802E40C1C25153F4 /* SWRevealViewController.h */,
+				641E2BFEA93C2070027932D76037E42E /* SWRevealViewController.m */,
+				CF9E5502635C7A05794DCD175531E635 /* Support Files */,
+			);
+			name = SWRevealViewController;
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		F5FEC3BC0EBBF672E063E8B9EAAD2DD1 /* Pods-Login ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4834AED72AECFBD41067C3F835BFC659 /* Pods-Login ExampleUITests.modulemap */,
+				D0A923FDE4E5E67902E4BC82C7E9BAE6 /* Pods-Login ExampleUITests-acknowledgements.markdown */,
+				E30FDD7D25B8F152F85D9D81CC1B5F06 /* Pods-Login ExampleUITests-acknowledgements.plist */,
+				A075D3140EA938F5D22FE87BC85079EA /* Pods-Login ExampleUITests-dummy.m */,
+				13D0AE8540E15E4A5BC2E7E61A86C204 /* Pods-Login ExampleUITests-Info.plist */,
+				E9CD1E5AD379706CE309986D13746DAD /* Pods-Login ExampleUITests-umbrella.h */,
+				931DC21CD983497C8CBE120E59247055 /* Pods-Login ExampleUITests.debug.xcconfig */,
+				3DDC8EDAFEE4F482C09AC4F43419F981 /* Pods-Login ExampleUITests.release.xcconfig */,
+			);
+			name = "Pods-Login ExampleUITests";
+			path = "Target Support Files/Pods-Login ExampleUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		71B5E1EF873071C12453E0A8E7984AFB /* Headers */ = {
+		112A2FF78C4D366F1F3875B0AD149AEB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1DB568652F2922227CCB097A5629C49 /* SWRevealViewController.h in Headers */,
+				D1A2EAE48CCBF348164838EB698C4902 /* SWRevealViewController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91E8D7A26751D5D0B4AFBC3018B5EB26 /* Headers */ = {
+		5B9BE6EBDCC90EE438C3AE1C075E0E2B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A1563F5E5E54554B7CEFFF18655382C /* Pods-Login ExampleTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		949F2D3F33683D2418D74759423DE255 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706161407BC9E341B394E926AB37233C /* Pods-Login ExampleUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,64 +364,85 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C275E0C1C84A1DE1D81AA5F808F89651 /* Headers */ = {
+		F30DCFFC8ECA49DE9202975A504FFC16 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFA6AE709FF4C8B9AC48E9B22EA1396F /* Pods-Login Example-umbrella.h in Headers */,
+				D068D27AFD5DDB885EA4D2F1A066106F /* Pods-Login Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		A54C3C20DA76528607950189DA743CA4 /* SWRevealViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41E54E7E3FF6F56EFAB320ED662DB034 /* Build configuration list for PBXNativeTarget "SWRevealViewController" */;
+			buildPhases = (
+				112A2FF78C4D366F1F3875B0AD149AEB /* Headers */,
+				679377F5D3D0C22118BC8E0E39143BEA /* Sources */,
+				CBC288CE555EFD5E6B2ED0122F482415 /* Frameworks */,
+				F0D79C0AAF3F5467D183DD2D0A064CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWRevealViewController;
+			productName = SWRevealViewController;
+			productReference = D334B9CDEC21015DD48358DB94CB1CFA /* SWRevealViewController */;
+			productType = "com.apple.product-type.framework";
+		};
 		AE3906502E2BD0FA2C6B2CCE69641B90 /* Pods-Login ExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26562041AE027D5820518EC704A32436 /* Build configuration list for PBXNativeTarget "Pods-Login ExampleTests" */;
+			buildConfigurationList = 92C5CCD1807F6B5F79512C86E95B28B1 /* Build configuration list for PBXNativeTarget "Pods-Login ExampleTests" */;
 			buildPhases = (
-				91E8D7A26751D5D0B4AFBC3018B5EB26 /* Headers */,
-				76502843DF81B6C2E48AD76A54F5B81D /* Sources */,
-				29B4E65173B6826AF519A0AEB5DC4937 /* Frameworks */,
+				5B9BE6EBDCC90EE438C3AE1C075E0E2B /* Headers */,
+				E928C363969FE2D084AA9C8489256FC0 /* Sources */,
+				0F5FC032A97F97A3DF31DBEF43211AA7 /* Frameworks */,
+				8EC6722934C505DD20B27922BF139638 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Pods-Login ExampleTests";
-			productName = "Pods-Login ExampleTests";
+			productName = Pods_Login_ExampleTests;
 			productReference = CEF32416BF1A840DA8F3393B19C5B4A3 /* Pods-Login ExampleTests */;
-			productType = "com.apple.product-type.library.static";
+			productType = "com.apple.product-type.framework";
 		};
 		DE5B6CF6BBF67BBEF8987E3EB61C1FB8 /* Pods-Login ExampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C3430A95D970F17B2CE78E4BE788486 /* Build configuration list for PBXNativeTarget "Pods-Login ExampleUITests" */;
+			buildConfigurationList = 785FB95B213ECC8F96BD7B7183450D22 /* Build configuration list for PBXNativeTarget "Pods-Login ExampleUITests" */;
 			buildPhases = (
-				71B5E1EF873071C12453E0A8E7984AFB /* Headers */,
-				573BF5B2C3B45AAAC7683726CD3FFFF8 /* Sources */,
-				FD0D2409092675FA54D819E5C854A793 /* Frameworks */,
+				949F2D3F33683D2418D74759423DE255 /* Headers */,
+				7B76264A533FDABF65AE1C1BA724124C /* Sources */,
+				661C5098EF5BB54D66EA57F06EEB35CF /* Frameworks */,
+				A8AFB1D5CD3470293627D9077D3034A0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Pods-Login ExampleUITests";
-			productName = "Pods-Login ExampleUITests";
+			productName = Pods_Login_ExampleUITests;
 			productReference = 89D1345DAF28679D4570D5DA2DCFA944 /* Pods-Login ExampleUITests */;
-			productType = "com.apple.product-type.library.static";
+			productType = "com.apple.product-type.framework";
 		};
 		E8037DF2AFD2C0836E8A44DF01B9F14A /* Pods-Login Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CC0E4BE053966A2DCE081C57F76448E /* Build configuration list for PBXNativeTarget "Pods-Login Example" */;
+			buildConfigurationList = E4EA78AA11DF58594DDCA2696CB382F1 /* Build configuration list for PBXNativeTarget "Pods-Login Example" */;
 			buildPhases = (
-				C275E0C1C84A1DE1D81AA5F808F89651 /* Headers */,
-				CD5AA35A61534A5F196852BBF9AE3E67 /* Sources */,
-				4B624F55527EAAE469A39587DFEFA030 /* Frameworks */,
-				50704E3245814135A4D97E919228D9FB /* Resources */,
+				F30DCFFC8ECA49DE9202975A504FFC16 /* Headers */,
+				30F78E79DE8844C7E5B919F49F59883D /* Sources */,
+				9A5F8BBB54A6CA85280A0E1D11AA12DE /* Frameworks */,
+				392E8B53D640CF237DB0E59F26FC3510 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4DC353AC328C691BC8801ACF83BF0AC7 /* PBXTargetDependency */,
+				1BD3AE9022065B1698DCF2F4D3CCD9D1 /* PBXTargetDependency */,
+				0AFAEF340BC3759EB6E006E1E9173CE8 /* PBXTargetDependency */,
 			);
 			name = "Pods-Login Example";
 			productName = Pods_Login_Example;
@@ -365,7 +477,7 @@
 				LastUpgradeCheck = 1500;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -373,7 +485,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 25B0A61B8A26E2D019269FA0F6FA3F1D /* Products */;
+			productRefGroup = A68B2CCF41014B082C0D31849ECC6014 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -381,12 +493,27 @@
 				E8037DF2AFD2C0836E8A44DF01B9F14A /* Pods-Login Example */,
 				AE3906502E2BD0FA2C6B2CCE69641B90 /* Pods-Login ExampleTests */,
 				DE5B6CF6BBF67BBEF8987E3EB61C1FB8 /* Pods-Login ExampleUITests */,
+				A54C3C20DA76528607950189DA743CA4 /* SWRevealViewController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		50704E3245814135A4D97E919228D9FB /* Resources */ = {
+		392E8B53D640CF237DB0E59F26FC3510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC6722934C505DD20B27922BF139638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8AFB1D5CD3470293627D9077D3034A0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -401,9 +528,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F0D79C0AAF3F5467D183DD2D0A064CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		30F78E79DE8844C7E5B919F49F59883D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44FE58022D34422A3C7B07F5CABCEB3A /* Pods-Login Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		48864C435B3DB37698CF568C638CF98F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -418,88 +560,90 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		573BF5B2C3B45AAAC7683726CD3FFFF8 /* Sources */ = {
+		679377F5D3D0C22118BC8E0E39143BEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8A9FD23A4756AC83138C615B4F82F70 /* Pods-Login ExampleUITests-dummy.m in Sources */,
+				FCC6E4A1F3FE9D67181B18D31BD7D0DC /* SWRevealViewController.m in Sources */,
+				1A3D3AB3A6407053F2A50408CB1A9D6E /* SWRevealViewController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76502843DF81B6C2E48AD76A54F5B81D /* Sources */ = {
+		7B76264A533FDABF65AE1C1BA724124C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2FEACC034A810FBA49A8559917724AE /* Pods-Login ExampleTests-dummy.m in Sources */,
+				6145576AEAAB74468EF41652E8F8565E /* Pods-Login ExampleUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD5AA35A61534A5F196852BBF9AE3E67 /* Sources */ = {
+		E928C363969FE2D084AA9C8489256FC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65653370249D48C1DAC1AF4E42E69961 /* Pods-Login Example-dummy.m in Sources */,
+				D118128A6F131749BD228C5824370F57 /* Pods-Login ExampleTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4DC353AC328C691BC8801ACF83BF0AC7 /* PBXTargetDependency */ = {
+		0AFAEF340BC3759EB6E006E1E9173CE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SWRevealViewController;
+			target = A54C3C20DA76528607950189DA743CA4 /* SWRevealViewController */;
+			targetProxy = 507B6CE56F98E598F0FB2436E5DCFEDC /* PBXContainerItemProxy */;
+		};
+		1BD3AE9022065B1698DCF2F4D3CCD9D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DropDown;
 			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
-			targetProxy = 824DAE0A92291A8117BC222B24291E0F /* PBXContainerItemProxy */;
+			targetProxy = 2285886354B96E28EFED350810E3FE22 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		044126D8E9075909CE80B68005AFAA90 /* Debug */ = {
+		385AA69AD442F99A414C8A9A2AF788B8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04C7F8DD8A1C0904527DAD01157AE374 /* Pods-Login ExampleUITests.debug.xcconfig */;
+			baseConfigurationReference = 0F64A062E23A382477026799014E6464 /* Pods-Login ExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Login ExampleTests/Pods-Login ExampleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Login ExampleTests/Pods-Login ExampleTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		293FB7072482669F942F14D4D17E20FB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6944E6E36BB783BE6B90EF5B44C40E9 /* Pods-Login ExampleTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		40C8C8D60111B47A1B694BAFA899D50E /* Debug */ = {
+		3D7453D1AEDE72981F0C1590AF4E52B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A91B4074316D5EEDE3ABF582896D01AC /* Pods-Login Example.debug.xcconfig */;
+			baseConfigurationReference = E55D527CD8B733184F2C0483722D79FB /* Pods-Login Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -534,9 +678,9 @@
 			};
 			name = Debug;
 		};
-		49688D0D62D2B4578C1DF563D127AE29 /* Release */ = {
+		3DCEE87FD4A069EE8CFAFD6B5B463863 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD801BF8374FAE5C18BCF509376B7EC3 /* Pods-Login Example.release.xcconfig */;
+			baseConfigurationReference = 3DDC8EDAFEE4F482C09AC4F43419F981 /* Pods-Login ExampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -548,7 +692,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Login Example/Pods-Login Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Login ExampleUITests/Pods-Login ExampleUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -557,7 +701,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Login Example/Pods-Login Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Login ExampleUITests/Pods-Login ExampleUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -638,52 +782,190 @@
 			};
 			name = Debug;
 		};
-		7348657F02D4A19A8C1D591BF9370C1A /* Release */ = {
+		6A80DDDB6B99A06588E4598F81883D98 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6657C8197D54037AA6F3DB52F6F66DA0 /* Pods-Login ExampleUITests.release.xcconfig */;
+			baseConfigurationReference = F839E1EDAEFF0900D692DC113BF4ECB7 /* SWRevealViewController.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SWRevealViewController/SWRevealViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWRevealViewController/SWRevealViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SWRevealViewController/SWRevealViewController.modulemap";
+				PRODUCT_MODULE_NAME = SWRevealViewController;
+				PRODUCT_NAME = SWRevealViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		807C8485D98CC75436514E9E8C3E2DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43966DE6712EDEA80E88DA3A3425E6A8 /* Pods-Login ExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Login ExampleTests/Pods-Login ExampleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Login ExampleTests/Pods-Login ExampleTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C0C8405E5C5D356FE5D25B043DBA441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C788C3759486B5A5D62E8629AEB6462 /* SWRevealViewController.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SWRevealViewController/SWRevealViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWRevealViewController/SWRevealViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SWRevealViewController/SWRevealViewController.modulemap";
+				PRODUCT_MODULE_NAME = SWRevealViewController;
+				PRODUCT_NAME = SWRevealViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		976718EF77D7DBE9DE802FDC3973BB69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 931DC21CD983497C8CBE120E59247055 /* Pods-Login ExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Login ExampleUITests/Pods-Login ExampleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Login ExampleUITests/Pods-Login ExampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B78150FDD5172BE7EAEED7C466B23394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0272689FEB1E32366EB5573F9665481 /* Pods-Login Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Login Example/Pods-Login Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Login Example/Pods-Login Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		8BAB53D2498CAB0C8DA2D1A665FD2ABC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28539757DCAFE530041A4D117AD6F65C /* Pods-Login ExampleTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		C24518E891FAA59668669823639498EB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C15EB8657063755722D9C7DC8D72885 /* DropDown.release.xcconfig */;
+			baseConfigurationReference = C235BFB35264452D2AF7931AFD60BDA3 /* DropDown.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -718,7 +1000,7 @@
 		};
 		E2CDE7BD114C532701D2E79C5CB4CAA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5834E7BD925BD3ED29331C1938CC0B7 /* DropDown.debug.xcconfig */;
+			baseConfigurationReference = C73070E60A048E7D5C387968A9E0C2D0 /* DropDown.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -815,20 +1097,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0CC0E4BE053966A2DCE081C57F76448E /* Build configuration list for PBXNativeTarget "Pods-Login Example" */ = {
+		41E54E7E3FF6F56EFAB320ED662DB034 /* Build configuration list for PBXNativeTarget "SWRevealViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				40C8C8D60111B47A1B694BAFA899D50E /* Debug */,
-				49688D0D62D2B4578C1DF563D127AE29 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		26562041AE027D5820518EC704A32436 /* Build configuration list for PBXNativeTarget "Pods-Login ExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8BAB53D2498CAB0C8DA2D1A665FD2ABC /* Debug */,
-				293FB7072482669F942F14D4D17E20FB /* Release */,
+				8C0C8405E5C5D356FE5D25B043DBA441 /* Debug */,
+				6A80DDDB6B99A06588E4598F81883D98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -851,11 +1124,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C3430A95D970F17B2CE78E4BE788486 /* Build configuration list for PBXNativeTarget "Pods-Login ExampleUITests" */ = {
+		785FB95B213ECC8F96BD7B7183450D22 /* Build configuration list for PBXNativeTarget "Pods-Login ExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				044126D8E9075909CE80B68005AFAA90 /* Debug */,
-				7348657F02D4A19A8C1D591BF9370C1A /* Release */,
+				976718EF77D7DBE9DE802FDC3973BB69 /* Debug */,
+				3DCEE87FD4A069EE8CFAFD6B5B463863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C5CCD1807F6B5F79512C86E95B28B1 /* Build configuration list for PBXNativeTarget "Pods-Login ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807C8485D98CC75436514E9E8C3E2DAC /* Debug */,
+				385AA69AD442F99A414C8A9A2AF788B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4EA78AA11DF58594DDCA2696CB382F1 /* Build configuration list for PBXNativeTarget "Pods-Login Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D7453D1AEDE72981F0C1590AF4E52B4 /* Debug */,
+				B78150FDD5172BE7EAEED7C466B23394 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
