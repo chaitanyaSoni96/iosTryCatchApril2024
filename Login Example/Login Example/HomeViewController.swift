@@ -35,7 +35,9 @@ class HomeViewController: UIViewController, StoryboardLoadable {
         let storyboard = UIStoryboard(name: "Main", bundle: .main)
         let vc = storyboard.instantiateViewController(withIdentifier: String(describing: Self.self)) as! Self
         let swRevealVC = SWRevealViewController(rearViewController: nil, frontViewController: UINavigationController(rootViewController: vc))
-        swRevealVC?.rightViewController = RightViewController.instantiate()
+        let rightVC = RightViewController.instantiate()
+        rightVC.buttonPressCompletion = vc.buttonPressed(index:)
+        swRevealVC?.rightViewController = rightVC
         swRevealVC?.delegate = vc
         return swRevealVC ?? .init()
     }
@@ -50,7 +52,9 @@ class HomeViewController: UIViewController, StoryboardLoadable {
         
 //        self.viewModel.delegate = self
     }
-    
+    func buttonPressed(index: Int) {
+        
+    }
     @IBAction func showPopupTapped(_ sender: Any) {
         let vc = PopupViewController.instantiate()
         vc.modalPresentationStyle = .overCurrentContext

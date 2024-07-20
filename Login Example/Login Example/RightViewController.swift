@@ -13,4 +13,5 @@ class RightViewController: UIViewController {
         let vc = storyboard.instantiateViewController(withIdentifier: "RightViewController") as! RightViewController
         return vc
     }
+    var buttonPressCompletion: ((Int) -> ())?
 }
