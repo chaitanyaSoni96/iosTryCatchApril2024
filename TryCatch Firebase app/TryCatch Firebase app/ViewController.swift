@@ -7,21 +7,39 @@
 
 import UIKit
 import FirebaseAuth
-
-
+import GoogleSignIn
+import FacebookLogin
 class ViewController: UIViewController, AuthUIDelegate {
 
     @IBOutlet weak var usernameTF: UITextField!
     @IBOutlet weak var otpTF: UITextField!
     
+    @IBOutlet weak var fbLoginButton: UIButton!
     var verificationID: String?
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         registerForRemoteNotification()
+        
     }
 
+    @IBAction func googleSignInTapped() {
+        GIDSignIn.sharedInstance.signIn(withPresenting: self) { signInResult, error in
+            guard error == nil else {
+                print("no user, error- ", error)
+                return
+            }
+//            signInResult.
+            print("logged in- ")//, signInResult.profile?.name)
+            // If sign in succeeded, display the app's main content View.
+          }
+    }
     
+    @IBAction func facebookSignInTapped() {
+        LoginManager().logIn(permissions: ["public_profile", "email"], from: self) { result, error in
+            
+        }
+    }
     
     @IBAction func submitPhoneNumberTapped(_ sender: Any) {
 //        FirebaseAuth.Auth.send

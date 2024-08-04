@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="NYe-1s-Q6h">
-                                <rect key="frame" x="8" y="357" width="377" height="138.33333333333337"/>
+                                <rect key="frame" x="8" y="314.66666666666669" width="377" height="223.00000000000006"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter phone number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TeL-Lg-Ytc">
                                         <rect key="frame" x="0.0" y="0.0" width="377" height="34"/>
@@ -52,6 +52,22 @@
                                             </button>
                                         </subviews>
                                     </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yrc-63-bOA">
+                                        <rect key="frame" x="0.0" y="146.33333333333331" width="377" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Google Sign in"/>
+                                        <connections>
+                                            <action selector="googleSignInTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="DxR-33-Jfr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9lp-dg-D1T">
+                                        <rect key="frame" x="0.0" y="188.66666666666663" width="377" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="fb sign in"/>
+                                        <connections>
+                                            <action selector="facebookSignInTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="7dU-Dk-LgT"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -65,6 +81,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="fbLoginButton" destination="9lp-dg-D1T" id="cBt-Xv-Ml6"/>
                         <outlet property="otpTF" destination="iP6-6K-4gS" id="rLL-wF-zIZ"/>
                         <outlet property="usernameTF" destination="TeL-Lg-Ytc" id="0wY-o5-4zL"/>
                     </connections>

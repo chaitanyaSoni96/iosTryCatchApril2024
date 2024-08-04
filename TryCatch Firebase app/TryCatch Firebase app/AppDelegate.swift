@@ -8,6 +8,10 @@
 import UIKit
 import Firebase
 import FirebaseMessaging
+import GoogleSignIn
+
+import FacebookCore
+import FacebookLogin
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate, MessagingDelegate {
@@ -16,8 +20,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        ApplicationDelegate.shared.application(application,
+                                               didFinishLaunchingWithOptions: launchOptions)
         FirebaseApp.configure()
         Messaging.messaging().delegate = self
+        GIDSignIn.sharedInstance.restorePreviousSignIn { user, error in
+            if let user, error == nil {
+                print("logged in- ", user.profile?.name)
+            } else {
+                print("no user, error- ", error)
+            }
+        }
         return true
     }
 
@@ -40,6 +53,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
 
     func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String?) {
         
+    }
+    func application(_ app: UIApplication,
+                     open url: URL,
+                     options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        return GIDSignIn.sharedInstance.handle(url) || ApplicationDelegate.shared.application(app,
+                                                                                              open: url,
+                                                                                              sourceApplication: nil,
+                                                                                              annotation: [UIApplication.OpenURLOptionsKey.annotation])
     }
 }
 

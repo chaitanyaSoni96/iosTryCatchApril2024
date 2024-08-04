@@ -5,14 +5,14 @@
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
-			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>app-1-36654782832-ios-fa19661be233c877f497b5</string>
+				<string>com.googleusercontent.apps.36654782832-meduj7grlsobhhphh2r0qniqdqupl0s4</string>
 			</array>
 		</dict>
 	</array>
+	<key>GIDClientID</key>
+	<string>36654782832-meduj7grlsobhhphh2r0qniqdqupl0s4.apps.googleusercontent.com</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
