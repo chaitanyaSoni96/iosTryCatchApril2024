@@ -24,13 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
                                                didFinishLaunchingWithOptions: launchOptions)
         FirebaseApp.configure()
         Messaging.messaging().delegate = self
-        GIDSignIn.sharedInstance.restorePreviousSignIn { user, error in
-            if let user, error == nil {
-                print("logged in- ", user.profile?.name)
-            } else {
-                print("no user, error- ", error)
-            }
-        }
+        
         return true
     }
 

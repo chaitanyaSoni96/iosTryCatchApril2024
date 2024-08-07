@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		280A80512C5F413D0040C38A /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 280A80502C5F413D0040C38A /* FacebookCore */; };
 		280A80532C5F413D0040C38A /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 280A80522C5F413D0040C38A /* FacebookLogin */; };
+		280A80552C5F44FD0040C38A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280A80542C5F44FD0040C38A /* HomeViewController.swift */; };
+		280A80572C5F48930040C38A /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280A80562C5F48930040C38A /* SwiftUIView.swift */; };
 		282432862C5F37C000659727 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 282432852C5F37C000659727 /* GoogleSignIn */; };
 		28FE5BDE2C3121F90066F77B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE5BDD2C3121F90066F77B /* AppDelegate.swift */; };
 		28FE5BE02C3121F90066F77B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE5BDF2C3121F90066F77B /* SceneDelegate.swift */; };
@@ -46,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		280A80542C5F44FD0040C38A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		280A80562C5F48930040C38A /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		283305922C312B0E00C3CA8E /* TryCatch Firebase app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TryCatch Firebase app.entitlements"; sourceTree = "<group>"; };
 		28FE5BDA2C3121F90066F77B /* TryCatch Firebase app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TryCatch Firebase app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FE5BDD2C3121F90066F77B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 				28FE5BDD2C3121F90066F77B /* AppDelegate.swift */,
 				28FE5BDF2C3121F90066F77B /* SceneDelegate.swift */,
 				28FE5BE12C3121F90066F77B /* ViewController.swift */,
+				280A80542C5F44FD0040C38A /* HomeViewController.swift */,
+				280A80562C5F48930040C38A /* SwiftUIView.swift */,
 				28FE5BE32C3121F90066F77B /* Main.storyboard */,
 				28FE5BE62C3121FB0066F77B /* Assets.xcassets */,
 				28FE5BE82C3121FB0066F77B /* LaunchScreen.storyboard */,
@@ -301,6 +307,8 @@
 				28FE5BE22C3121F90066F77B /* ViewController.swift in Sources */,
 				28FE5BDE2C3121F90066F77B /* AppDelegate.swift in Sources */,
 				28FE5BE02C3121F90066F77B /* SceneDelegate.swift in Sources */,
+				280A80552C5F44FD0040C38A /* HomeViewController.swift in Sources */,
+				280A80572C5F48930040C38A /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
